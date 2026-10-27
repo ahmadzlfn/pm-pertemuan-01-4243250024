@@ -7,17 +7,13 @@ NIM   : 4243250024
 Kelas : PSIK24D
 
 b. keluaran flutter --version
-PS C:\dev> flutter --version
-Flutter 3.47.8 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision 737ba8f885 (5 days ago) • 2026-10-22 21:37:31 -0700
-Engine • hash dfd2e6cb7d319db05e3bf1503f3e2ac60f6288a2 (revision cf636b1dfb) (4 days ago) • 2026-10-23 02:13:38.000Z
-Tools • Dart 3.13.7 • DevTools 2.60.0
+![Output flutter --version](screenshots/versiflutter.png)
 
 c. tangkap layar flutter doctor
-(screenshots/flutterdoctor.png)
+![Hasil flutter doctor](screenshots/flutterdoctor.png)
 
 d. tangkap layar program berjalan
-(screenshots/aplikasiberjalan.jpeg)
+![Aplikasi Hello World di HP](screenshots/aplikasiberjalan.jpeg)
 
 e. kendala beserta solusi
 1. Lokasi Android SDK mengandung spasi.
@@ -36,4 +32,3 @@ Pengembangan **native** membuat aplikasi khusus untuk satu sistem operasi dengan
 Pendekatan **hybrid** membangun antarmuka menggunakan teknologi web seperti HTML, CSS, dan JavaScript, lalu menjalankannya di dalam pembungkus aplikasi. Cara ini sesuai untuk aplikasi informasi atau katalog yang sebagian besar menampilkan konten web dan perlu dirilis cepat di beberapa platform.
 
 Pendekatan **cross-platform** memungkinkan satu basis kode digunakan untuk membuat aplikasi di beberapa sistem operasi. Flutter, misalnya, menggunakan Dart dan menyediakan widget untuk menyusun antarmuka. Pendekatan ini cocok untuk aplikasi layanan kampus yang perlu tersedia di Android dan iOS dengan tampilan serta fitur utama yang konsisten. Pilihan pendekatan sebaiknya mengikuti kebutuhan performa, akses perangkat, biaya pemeliharaan, dan kemampuan tim.
-
