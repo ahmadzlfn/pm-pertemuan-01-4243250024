@@ -27,7 +27,7 @@ class HelloPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pemograman Mobile'),
+        title: const Text('Pemrograman Mobile'),
         backgroundColor: Theme.of (context).colorScheme.primaryContainer,
       ),
       body: const Center(
@@ -43,7 +43,7 @@ class HelloPage extends StatelessWidget {
             SizedBox(height: 8),
             Text('Nama  : Ahmad Zulfan Hafiz Harahap'),
             Text('NIM   : 4243250024'),
-            Text('Kelas : Ilmu KOmputer D 2024')
+            Text('Kelas : Ilmu Komputer D 2024')
           ],
         ),
       ),
